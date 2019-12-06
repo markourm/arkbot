@@ -1,0 +1,11 @@
+Preferred food: Animal Feces, larger the better
+
+Dung Beetles are found in caves and tamed non-violently. They also can be lifted by an Argentavis or Quetzal.
+
+When choosing a target keep in mind that the level of the Dung Beetle is almost irrelevant as a level 1 Dung Beetle will produce entirely the same results as a level 200 Dung Beetle. The only difference is the weight they can carry, which translates to the amount of Feces you can load on it.
+
+While it is possible to tame anywhere, these beetles appear most frequently near water sources (past the first cluster of snakes in Central cave for example) it is advised to draw them closer to the cave entrance for safety. Positioning your Sabertooth at a choke point to prevent other players from interfering with your tame is advised on PvP. When not aggravated, the beetle will remain stationary making it easy to tame. Time lost by aggravating the beetle varies up to 3 to 5 minutes, which is added to the feeding interval time. As of Sept 20 2016 the Beetle's pathing is still a bit buggy: Luring a tamed Beetle from a cave can be done by lowering its follow distance to the player and by punching the Beetle around awkward obstacles. Keep in mind, this strategy might knock the Beetle unconscious, or even kill the Beetle if the player is too reckless; as such, getting them out of caves can be tedious. There is also a bug which can occur once aggravated where the beetle will no longer reliably accept feeding and will eventually die of hunger. But you no longer have to do that as of patch 241.0, Dung Beetles can be carried out by the player after taming, leaving it quite easy to retrieve them.
+
+Bug Repellant appears to have no effect.
+
+Alternatively, you can lure it outside of the cave and pick it up with an Argentavis or Quetzal and relocate it to a taming pen near or at your base for easy taming. That way, you'll know where it is and it will be protected from (most) other creatures during the taming process.

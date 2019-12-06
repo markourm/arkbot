@@ -1,0 +1,5 @@
+Preferred food: Beer jar
+
+To feed it, place  Beer Jar on the last slot of your hotbar, then when approached press use (default E) to feed it. You cannot feed them all the food required for taming at one time, you must wait every couple of minutes until it is hungry again to feed it more until its taming meter is filled. For the least amount of difficulty, wear  Ghillie Armor and sneak up carefully behind it. Also, if you have it in a safe area, you can feed the first beer and then do something else for a while to give it time to accrue some hunger.
+
+The Chalicotherium also accepts Stimberries but the taming progress is incredibly slow and therefore this is not advised.

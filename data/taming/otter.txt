@@ -1,0 +1,9 @@
+Preferred food: Sabertooth Salmon, Piranha, Coel
+
+The Otter is passively tamed in a manner similar to the Hesperornis. Fish must be killed, and their corpses dragged to the Otter. While still holding the fish, press E, Y, Triangle to feed the fish to the Otter.
+
+Larger fish, and fish killed by the Ichthyornis, provide a higher taming percentage per fish.
+
+Whilst they can be tamed by a solo survivor, having a buddy along to follow the otter whilst the other gathers the fish will ease the task of re-locating the tiny, fast animal for feeding.
+
+Argy Fishing: It is possible for an Argentavis to pick up an otter right out of the water, provided the otter is close to the surface and the Argy doesnt touch the water. Simply fly on the waters surface, grab the Desired otter and bring it to land. if the Otter is in the Argy's Talons, drop the otter and pick it up with the beak. You can then land, and the otter will remain stationary for you to bring fish too. Additionally, if Ally Looking is enabled, the Argy will lean the otter towards you.

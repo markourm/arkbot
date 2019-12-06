@@ -1,0 +1,3 @@
+Preferred food: Raw Beef, Raw Mutton, Raw Prime, Raw Meat
+
+Taming Method - Passive, Wolfs are naturally aggressive but will not attack a player holding a torch or in the close vicinity of a campfire, dinos equipped with a torch on the saddle or standing torch

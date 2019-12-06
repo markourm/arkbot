@@ -1,0 +1,3 @@
+Preferred food: Giant Bee Honey
+
+It only eats Giant Bee Honey. It is a temporary tame, it will stay tamed for 30 minutes. At the end of the 30 minutes, the Liopleurodon disappears.

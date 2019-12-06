@@ -1,0 +1,31 @@
+Preferred food: Regular Kibble, Vegetables, Mejoberry
+
+Similar to the Ichthy, Gigantopithecus is tamed by hand-feeding rather than through the use of tranquilizers. To feed one you will need to be level 30, then place an appropriate food in the far-right slot of your hotbar and get close enough to the creature for the button prompt to appear. Gigantopithecus will take one piece of the food from your inventory and will play an eating animation. You must wait for the creature's hunger to go back down before it can be fed again, a process which takes some time, dependend on the level and the food (see tables).
+
+If you come into physical contact with Gigantopithecus while you are trying to feed it, the creature will attack. You must get out of its line of sight in order for it to calm back down and be feed-able again. Your taming progress will not be reset if the creature attacks you, but you will lose taming effectiveness if you fight back.
+
+Be careful when approaching Gigantopithecus while feeding, as it will randomly change directions or stop, causing you to run into it. It is better to approach it from behind while it's standing still, since the creature usually doesn't turn all the way around while wandering. Or you can crouch up to it and feed it that way as it will not attack you when you're crouched.
+
+It is best to bring a flying mount in case you need to run away, since they can easily be flown above the Gigantopithecus and it will give up the chase a lot quicker than on the ground. If a flying mount is not available, fast ground mounts such as a Raptor are decent alternatives.
+
+Taming Box
+Another method is to trap the Gigantopithecus in a 1x1 room with no roof or a hatchframe. You can then feed it from above without having to worry about bumping into it or having it wander off, and wild carnivores will have a tougher time getting to it.
+
+The Gigantopithecus can also be trapped directly on spot so the camera has never to be moved during the process.
+
+For this, it requires one foundation (Just even floor will not suffice), two fence foundations and five door frames. On the foundation, one fence foundations needs to be placed directly on the edge of it, and the second one should be snapped to the other one so it lays diagonally on the foundation. Now the foundation is separated in two triangles, and note that the triangles are of different sizes, and the bigger one will be the potential taming spot. Now it requires door frames on each but one side (So the Gigantopithecus can be lured into the box). After you have lured the Gigantopithecus into the box, close the last open side, and now it will walk around in the box (Aggressive or not), and you just have to keep one door frame projected at the diagonal fence foundation and place it as soon as possible. After it is placed, the Gigantopithecus barely has any possibility to move left.
+
+When hand feeding him now, it is important to not stay on the foundation because then you have high risk of enraging it. It is advised to stay on the ground next to it and crouch, then it can be fed without any problems.
+
+It is advised to use stone because it can easily become enraged by accident, but with enough care, wooden structures will also suffice (Thatch won't because it will be broken in the process of luring it in the box and losing aggro).
+
+Luring into the box
+Since dropping it in the box with a flying mount is pretty hard and only possible with a Quetzal or Argentavis, it is much easier to lure it into it. For this, leave one side of the box open at first and place a doorframe on the opposite side. Then, after getting its attention, you just run into the box, wait until it is close enough to actually enter it, and then just leave through the door frame (It cant pass through it) and close the opposite side with a spare wall.
+
+Losing aggro
+To lose its aggro, just travel vertically till the skybox is reached and instantly return. Horizontal travel to lose its interest is discouraged because it can cause the teleporting bug, which lets it exit the box (If this happens or not is dependent on the exact placement of the box), or may even let it despawn.
+
+Sometimes, it may be still enraged and attacking the box when returning. In this case, you need to replace all wall/door structures it is attacking.
+
+Using a Quetzal
+To tame the Gigantopithecus using the Quetzal method, it requires 2 people. The first person needs to carry the Gigantopithecus with the Quetzal, and hover close the ground. While it's been carried, the Gigantopithecus can be fed, and is less likely to retaliate against the tamer. If the feeder gets too close, it will still throw a punch, but it wont affect the tame or aggro it. The Quetzal might slide around over time, so the Quetzal rider only has to adjust its position every now and then. Along with feeding the Quetzal food/stimberries to keep it flying. Alternative, on PC, the player riding the Quetzal can hold X to prevent it from moving in the air, thus allowing it to keep the Gigantopithecus completely still.

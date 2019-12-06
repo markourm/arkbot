@@ -1,0 +1,23 @@
+Preferred food: baby dinos, bigger the better
+
+Troodons use a unique flavour of Passive Taming. Instead of putting a Food item in your last Inventory Slot, you have to instead allow the Troodon to kill your tames. Troodons gain Taming Affinity by earning Combat Experience, with the amount required reduced by 40% at night. Taming Affinity will only be credited to a player if the creature killed belonged to you or your tribe. A singular tame is capable of providing experience to multiple troodons. Tests have shown this is unreliable, but can be reproduced.
+
+Requirements
+Experience required: 343 + (32 x Troodon's level)
+Experience required at night: 137 + (13 x Troodon's level)
+Creatures must not be set as Passive and must be unmounted by a player.
+Creatures can be unconscious or pre-damaged (i.e. at 1 Health remaining).
+Babies and adults provide the same amount of experience.
+Pheromone darts may be utilized to make the troodon attack a chosen dino, but be careful that other wild dinos do not enter the fight.
+
+Taming Notes
+There is a "Feeding Interval" of sorts, wherein no Taming Affinity will be gained for subsequent kills. It is not yet known how this is calculated, but 90 seconds was sufficient for a level 1 Troodon.
+Taming Affinity will not reset nor is Taming Effectiveness reduced when a wild Troodon takes damage.
+In fact, Troodons will always tame with 100% Taming Effectiveness (i.e. 50% bonus levels).
+Taming and Experience Multipliers do not seem to affect the Troodon. That said, the table below utilises the v253.0 hard-coded 2x experience values (although even if the actual amount of experience required and earned is still on the previous 1x values, the taming requirements are the same.
+Troodons will not readily aggro onto most creatures that provide a substantial amount of experience. To circumvent this, have the Troodon aggro to the player while standing on top of the creature.
+
+Baby Wyverns are the most recommended taming method as Wyvern Eggs are readily available and the babies do not starve at an accelerated rate.
+Requires further testing: Be very cautious of the baby's food stat when attempting to tame Troodons with baby dinos, even with wyverns; for some reason it seems that the Troodon causes all food to drain from the baby after it attacks it. Estimation of the food drain is around 250-300 food per second. This lingers even after some time from the Troodon's last strike. As a result this may cause a hefty sacrifice to be for nothing if the baby somehow dies from starvation. Due to how sporadic the Troodon can be even with the use of pheromone darts, it may be worth it to sit on top of the baby if possible so the Troodon attacks you and the baby. If it happens to knock you out, it may still kill the baby and become tamed, leaving you in no danger.
+
+Using Cryopods to inflict Cryo Sickness on the creature you are trying to sacrifice will cause it to take 10x the damage. This can make it much faster and easier for the Troodon to kill them.

@@ -1,0 +1,13 @@
+Preferred food: Sabertooth Salmon, Piranha, Coel
+
+This bird uses an odd version of passive taming. You must kill fish and then bring it to the Hesperornis to tame it. It appears type of fish and, most importantly, size affects how quickly it's tamed. A small fish might give 2-3% taming progress, while a large one can give 9-10% or more. There is a 30-second cooldown between feedings.
+
+A good strategy to use is to put a fish in a foundation with a ramp and three railings, with one open side towards the birds. Then, they'll walk into it without any effort. Another method is to use a  Grappling Hook to drag them to your pen.
+
+Salmon seems to be more effective in taming than Coel. Taming it with fish obtained by an Ichthyornis gives more taming percentage.
+
+The Hesperornis deals barely any damage with its attack, unless in water, so getting it to attack you on land which prevents it from running away is a good idea. Luring it into a pen by walking near and gaining its attention is the best way to prevent you from losing it while finding more fish.
+
+Using an Ichthyornis to kill fish will drastically improve taming effectiveness (roughly 5 to 10 times greater effectiveness per fish) due to the "prime buff" given by fish it kills.
+
+Although the Hesperornis is tamed by the player dragging a dead fish up to the bird. Once it is tamed Hesperornis only eats raw fish meat just like other aquatic carnivores.

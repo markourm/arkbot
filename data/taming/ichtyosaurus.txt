@@ -1,0 +1,8 @@
+Preferred food: Simple Kibble, Raw Mutton, Cooked Lamb Chop, Raw Prime Meat, Cooked Prime Meat, Raw Prime Fish Meat, Raw Meat
+
+To feed it, place raw meat on the last slot of your hotbar, then when approached press use (default E, Y, Triangle) to feed it. You cannot feed them all the meat required for taming at one time, you must wait every couple of minutes until it is hungry again to feed it more until its taming meter is filled.
+
+The Ichthyosaurus will nuzzle up to tamed creatures, so using them to help tame them is recommended.
+The Ichthyosaurus may try to swim away while you are taming it.
+If you find the Icthyosaurus keeps running away you might be able to get between it and the open ocean forcing it to run to the shallows where it could get stuck for you to tame it. Its still likely it may get away though so blocking it in even further might help as well.It is advised not to try and tame them in open water.
+It will co-habitat with Megalodons and Mantas, which together with the water can make taming them a bit dangerous.

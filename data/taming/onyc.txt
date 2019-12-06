@@ -1,0 +1,6 @@
+Preferred food: Raw Mutton, Cooked Lamb Chop, Raw Prime Meat, Cooked Prime Meat, Raw Prime Fish Meat, Raw Meat
+
+The Onyc is tamed non-violently, rather than through the use of tranquilizers, and requires a player level of 65 to feed. Since it is a naturally aggressive creature, you must first apply  Bug Repellant to yourself in order to keep it from attacking you on sight. The Bat will not be tameable if it is trying to attack another creature or is feeding on a corpse, so you must remove any such distractions from the area, or lure the Bat to a more secluded area.
+
+Once you have the repellent applied and distractions dealt with, place the food you wish to feed it in the right-most slot of your hotbar. Then, carefully approach the Bat until the button prompt to feed it appears - it will eat the piece of food you give it and a taming bar will appear. You must then wait until it becomes hungry enough to be fed again, and repeat the process.
+If you accidentally get too close and touch the Bat, it will become aggressive and attack, despite the repellant. In order to continue taming it, you must get far enough away for it to lose interest in you. A Ghillie Suit can be used as a substitute for repellant, but you will need to be prone to get close enough to tame it, leaving you vulnerable to attacks.

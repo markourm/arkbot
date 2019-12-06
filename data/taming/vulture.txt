@@ -1,0 +1,11 @@
+Preferred food: spoiled meat
+
+The Vulture is unable to be tamed through the standard tranquilize-and-feed methods, and must be tamed non-violently, but this can be difficult as they become aggressive at the presence of a corpse.
+
+To feed it, place Raw or Spoiled Meat on the last slot of your hotbar, then approach and press use (default E) to feed it. You cannot feed them all the meat required for taming at one time, you must wait every couple of minutes until it is hungry again to feed it more until its taming meter is filled. The vulture will fly off every once in a while, and can easily be lost if one is not paying attention.
+
+A set of  Ghillie Armor may help during taming, as it the Vulture will become aggressive if you are near a corpse. This will also reduce the chance of roaming predators catching sight of you and attacking.
+
+Nearby wild predators may try to attack the Vulture while you are feeding it. If the Vulture enters combat while being tamed, the taming progress will stall.
+
+Vultures aggro when attacked or any time there is a corpse nearby. If you are attacked by another creature, the vulture won't react until you kill the offending creature, at which point it will attack due to you being near a corpse. However, it will not attack if you are near an unconscious creature, so if you are taming a Vulture and are attacked by another creature, you can tranquilize the attacker without upsetting the Vulture.

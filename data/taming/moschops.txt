@@ -1,0 +1,8 @@
+Preferred food: Amarberry, Azulberry, Cooked Lamb Chop, Cooked Meat, Cooked Prime Fish Meat, Cooked Prime Meat, Giant Bee Honey, Leech Blood, Mejoberry, Organic Polymer, Prime Meat Jerky, Rare Flower, Rare Mushroom, Raw Meat, Raw Prime Meat, Raw Prime Fish Meat, Sap, Tintoberry
+
+When passive taming a Moschops, it will randomly cycle through one of the above foods it wants to eat. Feed it exactly what it asks for.
+Since it is a passive tame, you should not knock it out, if you do its hunger will decrease rapidly making any future passive taming attempts useless.
+Build a pen with 4 fence foundations and 4 fences.
+Use a Kaprosuchus to place it inside, quickly dismount and close the pen. [Note, however, that on Official PvE Servers this does not work.]
+You can safely passive tame it now without having to worry about letting it walk away.
+Remember to stock up on all the resources it eats before attempting to tame one, as it will cycle through food it wants. Because many of these resources can spoil, it is advised to take a dino along to store them until needed.

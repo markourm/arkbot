@@ -1,0 +1,7 @@
+Preferred food: fertilised eggs, bigger the better
+
+To tame the Titanoboa you have to drop a fertile egg near it, while it is not distracted in any way (it doesn't work if the Titanoboa is aggroed to attacking something, including your character). The Titanoboa will "attack" the egg and eat it, gaining taming progress. The ancestry (e.g. the levels of the parents) of each fertilized egg will not affect the taming speed.
+
+The best way is to drop the egg from above while riding a flying mount. But drop the egg from your own inventory, for when you drop the egg from the mount's inventory, the Titanoboa will ignore it.
+
+All eggs have to be fertilized, non-fertilized eggs will not work. The eggs in the following tables are representing all egg-types of their group. The other eggs belonging to the same group are listed below the tables. All eggs in a group have the same taming-effects. Once the Titanoboa is tamed, it will only eat eggs as a source of food(similar to the Achatina with vegetable cakes), the eggs do not need to be fertilized.

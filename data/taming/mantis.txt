@@ -1,0 +1,9 @@
+Preferred food: Deathworm Horn
+
+To feed it, place a  Deathworm Horn in the last slot of your hotbar, then when approached press "use" (default E) to feed it. You cannot feed them all the horns required for taming at one time, you must wait a few minutes after each feeding to give it the next one, and repeat until the taming meter is filled.
+
+The Mantis is normally aggressive, so  Bug Repellant is needed in order to get close enough to feed it. A set of  Ghillie Armor is also useful, but not required. The Mantis becomes aggressive if you are too close. The taming progress will become halted until it loses interest in whatever it was fighting, or even decrease if it's aggressive for too long.
+
+A good trap to tame the Mantis is a single foundation (Stone, Adobe, or Metal) with 4 walls on the first level, and 3 walls on the second level. Lastly add two ramps to the last opening on the second level. Part of the Mantis will stick outside of the trap and you can feed it. You will not need any  Bug Repellant or  Ghillie Armor with this method.
+
+Mantis eats every 3 minutes regardless of level.

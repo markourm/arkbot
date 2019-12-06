@@ -1,0 +1,26 @@
+Preferred food: Black Pearls
+
+The Tusoteuthis introduced two new mechanics to Passive Taming:
+
+It will eat up to 50 of an individual food item in a single consumption. Taming Effectiveness is lost per consumption not per item, and is at a reduced rate compared to other tames in any case.
+It can eat at 90% of its maximum food, regardless of how much Food what it's being fed will restore (factoring the above).
+The Taming Affinity (progress) gained for food types other than Black Pearls is only 10% of the value derived by other tames (e.g. 15 from Prime Meat instead of 150), and so at least 10 should be fed at a time to have a comparable taming time to other creatures.
+
+Note that 50 Black Pearls will still restore up to 1500 Food regardless of the creature's current Food when fed, and so Starve Taming will actually take longer as the full 1500 food will need to deplete per required consumption (compared to allowing 10% to deplete each time).
+
+Strategy
+The Passive Tame hitbox is the Tusoteuthis' beak, within its tentacles.
+Similar to Mosasaurus, the Tusoteuthis dislikes shallow water and will de-aggro.
+Unlike other Passive Tames, Taming Affinity is not reset when the Tusoteuthis takes damage.
+The Tusoteuthis "Does Not Want To Be Tamed Right Now" unless it has a creature within its clutches.
+When possible, try to steer the Tusoteuthis away from terrain - it is currently possible for its grab to release creatures/players under the ground.
+
+Process
+The least-likely-to-die distraction available is a high level Carbonemys or Plesjosaurus with a high armor saddle. Another alternative would be to use a Mosasaur (preferably levelled some) with a high armor or Tek saddle on passive. Stimulants may also be required for taming higher level Tusoteuthis, as an unconscious Carbonemys is of no interest to the Tusoteuthis. The lower the durability of the Carbonemys and the higher the dps of the Tusoteuthis: the more Carbonemys that may be required or sacrificed. Other high durability tames also work, but anything that requires oxygen is not recommended. A drowned tame is also of no interest to the Tusoteuthis.
+
+Approach the Tusoteuthis while mounted and allow it to grab your creature.
+Dismount then approach the creature's beak with 50 Black Pearls within your last inventory slot. Be aware of the weight of Black Pearls.
+Press E, Y, Triangle to Feed.
+Swim directly up and out of the deep-water zone. You are not able to re-mount while the squid has your creature held.
+Wait at least 3 minutes, then repeat.
+While riderless, the Tusoteuthis will not wait long to let go of your creature - making a team of two the safest option, as the distraction's rider can remain mounted until the creature is fed and then dismount themselves and swim up. If you do attempt to solo tame, flippers are recommended for speedy getaways. Make sure your tame is on passive and set to follow, and if it survives the feeding it will swim up to safety the moment the squid lets go.

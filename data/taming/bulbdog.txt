@@ -1,0 +1,5 @@
+Preferred food: Plant Species Z Seed, Aquatic Mushroom, Amarberry Seed, Citronal Seed, Cooked Lamb Chop, Cooked Prime Meat, Raw Mutton, Sweet Vegetable Cake, Cooked Meat, Raw Prime Meat, Raw Meat
+
+The Bulbdog must be tamed non-violently.
+
+To feed it, place one the foods listed below on the last slot of your hotbar, then when approached press the use key (default E, Y, Triangle) to feed it. You cannot feed them all the food required for taming at one time, you must wait every couple of minutes until it is hungry again to feed it more until its taming meter is filled.

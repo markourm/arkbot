@@ -1,0 +1,18 @@
+Preferred food: fertilized Rock Drake eggs
+
+The Basilisk is tamed non-violently, rather than through the use of tranquilizers.
+To tame one, the player must drop a fertilized Rock Drake egg on the ground at/or near the Basilisk while it is not burrowed (while it will still eat egg even when aggro'd, chances of it eating are very low even when brought close in its path, and it is best to kite it close and make it lose interest in the player). The Basilisk will "attack" the egg when it is nearby one of them and eat it, gaining taming progress. The ancestry (e.g. the levels of the parents) of each fertilized egg will not affect the taming speed.
+
+If more eggs are required, retreat to a safe location for a long duration, as the rate at which the Basilisk returns to being feedable is very low.
+
+As flying mounts are not available in the map it exists in, one of such strategy is to utilize  Raptor with High movement speed and lure it over to the fertilized egg as it moves relatively quick once aggravated. If dropping while running, ensure the egg are dropped from your own inventory, for when you drop the egg from the mount's inventory, the Basilisk will still eat the egg when it is not aggravated, but no taming progress will be made.
+
+Another method would be to utilize mounts the Basilisk are not aggravated by, such as  Rock Drake. Dismount nearby and mount after getting its attention, then kite it into a circle. Do not hit it. Pay close attention to it-the moment it turns its head away from the drake, dismount to the other side and remount to hold aggro.
+
+One can also use a Karkinos. Hold a passive wild dino, such as a parasaur, and aggro the Basilisk. Keep turning in a circle to keep the parasaur safe, and drop the eggs.
+
+Using structure involves using dinosaur gates and/or walls with fence foundation while leaving a corner gap small enough for the player to escape, but Basilisk not to escape. However, it will try to attack the structure to get to the character, so moving around to get its attention of your location and losing it after is required for this strategy to work. Be mindful for its poison spit however.
+
+By far the easiest way to tame a Basilisk is creating a taming pen with pillars and foundations. The basilisk can't burrow through foundations so you will never lose taming effectiveness.
+
+The Basilisk loses about 7-8% taming effectiveness every time it burrows.

@@ -1,0 +1,11 @@
+Preferred food: Vegetables, Mejoberry, Berries 
+
+The Pegomastax has a unique variation to the Passive Taming mechanic - rather than pressing E to feed an item to the creature, you must allow it to Pickpocket the item from you. This deals a minor amount of damage, after which the Pego will run away and there is a delay before it can be "fed" again. It will prioritise the item held in your last inventory slot, but will move on to steal other random items if your last inventory slot is empty - food items stolen from other slots or your inventory will still count toward the tame. If you have no items - it will become conventionally aggressive. Note that Pickpocketing will steal the entire stack, not just an individual item.
+
+Items that the Pegomastax steals can only be reprised from its corpse or its inventory (tamed or knocked out), with the exception of valid taming foods that will be lost.
+
+The amount of consumables in a stack appears to improve taming time, but this is not a 1:1 ratio (Tested: A level 25 took 4 stacks of 100 mejoberries to tame).
+
+Taming Effectiveness is always 100% (i.e. +50% bonus levels) unless damaged, although damaging a passive tame will reset all Taming Affinity (Progress).
+
+Put mejoberries in stacks of 20 in your inventory, only carry berries let him steal a stack at a time, he will lose a little taming before returning to steal again, a small 1 x 1 box works well to keep him from running away too far after stealing each time. If you encounter problems with dropping tame despite continued stealing, try a larger box and giving the Pegomastax more room.

@@ -1,0 +1,3 @@
+Preferred food: Rare Flower, Mejoberry, Berries 
+
+Lystrosaurus is tamed by hand-feeding rather than through the use of tranquilizers. To feed one you will need to place an appropriate food in the far-right slot of your hotbar and get close enough to the creature for the button prompt to appear. Lystrosaurus will take one piece of the food from your inventory and will play an eating animation. You must wait for the creature's hunger to go back down before it can be fed again, a process which takes some time, depending on the level and the food.

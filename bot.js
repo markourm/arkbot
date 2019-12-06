@@ -56,23 +56,14 @@ function tameCommand(arguments, receivedMessage) {
         return
     }
 
-    let dino = arguments[0].toLowerCase();
-    let found = false;
+    let dino = arguments.join(" ").toLowerCase();
 
     readFiles('data/taming/', dino, function(filename, content) {
-        if(!found) {
-            receivedMessage.channel.send(filename.slice(0, -4) + "\n\n" + content);
-            found = true;
-        }
+        receivedMessage.channel.send(filename.slice(0, -4).toUpperCase() + "\n\n" + content);
     }, function(err) {
         console.log(err);
         receivedMessage.channel.send("Critical Error!");
-        found = true
     });
-
-    if(!found) {
-        receivedMessage.channel.send("The creature " + dino + " was not found in database");
-    }
 }
 
 function readFiles(dirname, key, onFileContent, onError) {
@@ -81,9 +72,12 @@ function readFiles(dirname, key, onFileContent, onError) {
             onError(err);
             return;
         }
+
+        let found = false;
+
         filenames.forEach(function(filename) {
 
-            if(filename.toLowerCase().startsWith(key)) {
+            if(!found && filename.toLowerCase().startsWith(key)) {
                 fs.readFile(dirname + filename, 'utf-8', function (err, content) {
                     if (err) {
                         onError(err);
@@ -91,7 +85,11 @@ function readFiles(dirname, key, onFileContent, onError) {
                     }
                     onFileContent(filename, content);
                 });
+                found = true;
             }
         });
+        if(!found) {
+            onFileContent(key + ".txt", key + " was not found in database");
+        }
     });
 }

@@ -59,7 +59,14 @@ function tameCommand(arguments, receivedMessage) {
     let dino = arguments.join(" ").toLowerCase();
 
     readFiles('data/taming/', dino, function(filename, content) {
-        receivedMessage.channel.send(filename.slice(0, -4).toUpperCase() + "\n\n" + content);
+
+        content = filename.slice(0, -4).toUpperCase() + "\n\n" + content;
+        
+        let chunks = chunkSubstr(content, 1900);
+
+        for (let i = 0; i < chunks.length; i++) {
+            receivedMessage.channel.send(chunks[i]);
+        }
     }, function(err) {
         console.log(err);
         receivedMessage.channel.send("Critical Error!");
@@ -92,4 +99,15 @@ function readFiles(dirname, key, onFileContent, onError) {
             onFileContent(key + ".txt", key + " was not found in database");
         }
     });
+}
+
+function chunkSubstr(str, size) {
+    const numChunks = Math.ceil(str.length / size)
+    const chunks = new Array(numChunks)
+
+    for (let i = 0, o = 0; i < numChunks; ++i, o += size) {
+        chunks[i] = str.substr(o, size)
+    }
+
+    return chunks
 }

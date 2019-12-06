@@ -1,0 +1,5 @@
+Preferred food: Exeptional Kibble, Raw Mutton, Cooked Lamb Chop, Raw Prime Meat, Cooked Prime Meat, Raw Prime Fish Meat, Raw Meat
+
+Acrocanthosaurus can be tamed as either as immersive combat tame with Giga Hearth trophy, or with vanilla knockout tame.
+
+To tame Acrocanthosaurus in vanilla mode, you must use guns or weapons (the best is a shotgun), do not use a tame to damage Acro. Doing damage to it will cause it to go into its shielded stance. You want to deal damage to Acro while its tanking your hits until you see it try to roar. While roaring, run up to the Acro's mouth, with narcotics or biotoxin in the last slot of your item bar, and press E when you can. If you fail to do so, Acro will gain Adrenaline and be a major threat. Succesfully tossing Narcs into its mouth will heal it and increase its torpor. Rinse and repeat until Acro is KO'd. Acro uses Rex preferred food currently when knocked out.

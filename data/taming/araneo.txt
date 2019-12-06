@@ -1,0 +1,7 @@
+Preferred food: Spoiled Meat, Raw Meat
+
+Araneomorphus is tamed non-violently, rather than through the use of tranquilizers. Since it is a naturally aggressive creature, you must first apply Bug Repellent in order to keep it from attacking on sight. The Araneo will not be tameable if it is trying to attack another creature or is feeding on a corpse, so you must either remove any such distractions from the area or lure it to a more secluded area.
+
+Once you have the Bug Repellent applied and distractions dealt with, place the food you wish to feed it in the right-most slot of your hotbar. Then, carefully approach the Araneo until a button prompt to feed it appears - it will eat the piece of food you give it and a taming bar will appear. It is recommended that you do so in the prone position to reduce the chance of it noticing you and becoming aggressive. You must then wait until it becomes hungry enough to be fed again, and repeat the process. If you accidentally get too close and touch the Araneo, it will become aggressive and attack. In order to continue taming it, you must get far enough away for it to lose interest in you.
+
+Once tamed, the Araneo can itself become a useful tool for taming because of its web attack. Survivors can use this attack to slow down a target animal, rendering it far less dangerous and more manageable.

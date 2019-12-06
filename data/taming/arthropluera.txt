@@ -1,0 +1,10 @@
+Preferred food: Broth of Enlightenment, Spoiled Meat, Raw Meat
+
+Arthropluera is tamed non-violently, rather than through the use of tranquilizers. Since it is a naturally aggressive creature, you must first apply  Bug Repellant in order to keep it from attacking you on sight. The Arthro will not be tameable if it is trying to attack another creature or is feeding on a corpse, so you must remove any such distractions from the area, or lure the Arthro to a more secluded area.
+
+Once you have the repellent applied and distractions dealt with, place the food you wish to feed it in the right-most slot of your hotbar. Then, carefully approach the Arthro until the button prompt to feed it appears - it will eat the piece of food you give it and a taming bar will appear. You must then wait until it becomes hungry enough to be fed again, and repeat the process.
+
+It can be very difficult to properly do this, as the Arthro is constantly moving in an unpredictable pattern.
+If you accidentally get too close and touch the Arthro, it will become aggressive and attack, despite the repellant. In order to continue taming it, you must get far enough away for it to lose interest in you. If you go away from it for too long and aren't using broth of enlightenment to tame it; it's taming bar will go down faster than you can feed it, making it untameable. Be careful of its spit attack when fleeing, as it will deal significant damage to your armor if it hits.
+
+In some caves, it is possible to tame an Arthropluera IF it is underwater. Arthroplueras that are underwater will not aggro on the player, but may aggro if touched. This makes it easier to amass an army of Arthroplueras if a lot are under the water in some caves.

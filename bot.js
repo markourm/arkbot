@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs');
+const config = require("./config.json");
 
 client.on('ready', () => console.log("Connected as " + client.user.tag));
 
@@ -15,8 +16,7 @@ client.on('message', (receivedMessage) => {
     }
 });
 
-bot_secret_token = "NjUyNTYyMDM5ODg1MjY2OTQ0.XeqQXg.F1gBAOvMz-5bu2V2yUTZPpXqKO4";
-client.login(bot_secret_token);
+client.login(config.token);
 
 function processCommand(receivedMessage) {
     let fullCommand = receivedMessage.content.substr(1); // Remove the leading exclamation mark
@@ -57,13 +57,20 @@ function tameCommand(arguments, receivedMessage) {
     }
 
     let dino = arguments[0].toLowerCase();
+    let found = false;
 
     readFiles('data/taming/', dino, function(filename, content) {
         receivedMessage.channel.send(filename.slice(0, -4) + "\n\n" + content);
+        found = true;
     }, function(err) {
         console.log(err);
-        receivedMessage.channel.send("Critical Error!")
+        receivedMessage.channel.send("Critical Error!");
+        found = true
     });
+
+    if(!found) {
+        receivedMessage.channel.send("The dino " + dino + " was not found in database");
+    }
 }
 
 function readFiles(dirname, key, onFileContent, onError) {

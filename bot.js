@@ -40,7 +40,7 @@ function processCommand(receivedMessage) {
 
 function helpCommand(arguments, receivedMessage) {
 
-    let genericHelp = "Available commands: `!tame dinoname`, for example `!tame archelon`\n `!list` lists all creatures in database";
+    let genericHelp = "Available commands:\n `!tame dinoname`, for example `!tame archelon`\n `!list` lists all creatures in database";
 
     if (arguments.length === 0) {
         receivedMessage.channel.send(genericHelp)

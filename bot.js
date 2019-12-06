@@ -60,8 +60,10 @@ function tameCommand(arguments, receivedMessage) {
     let found = false;
 
     readFiles('data/taming/', dino, function(filename, content) {
-        receivedMessage.channel.send(filename.slice(0, -4) + "\n\n" + content);
-        found = true;
+        if(!found) {
+            receivedMessage.channel.send(filename.slice(0, -4) + "\n\n" + content);
+            found = true;
+        }
     }, function(err) {
         console.log(err);
         receivedMessage.channel.send("Critical Error!");
@@ -69,7 +71,7 @@ function tameCommand(arguments, receivedMessage) {
     });
 
     if(!found) {
-        receivedMessage.channel.send("The dino " + dino + " was not found in database");
+        receivedMessage.channel.send("The creature " + dino + " was not found in database");
     }
 }
 

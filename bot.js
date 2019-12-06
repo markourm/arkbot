@@ -31,6 +31,8 @@ function processCommand(receivedMessage) {
         helpCommand(arguments, receivedMessage)
     } else if (primaryCommand === "tame") {
         tameCommand(arguments, receivedMessage)
+    } else if (primaryCommand === "list") {
+        listCommand(receivedMessage)
     } else {
         receivedMessage.channel.send("I don't understand the command. Try `!help`")
     }
@@ -38,7 +40,7 @@ function processCommand(receivedMessage) {
 
 function helpCommand(arguments, receivedMessage) {
 
-    let genericHelp = "Available commands: `!tame dinoname`, for example `!tame archelon`";
+    let genericHelp = "Available commands: `!tame dinoname`, for example `!tame archelon`\n `!list` lists all creatures in database";
 
     if (arguments.length === 0) {
         receivedMessage.channel.send(genericHelp)
@@ -61,12 +63,27 @@ function tameCommand(arguments, receivedMessage) {
     readFiles('data/taming/', dino, function(filename, content) {
 
         content = filename.slice(0, -4).toUpperCase() + "\n\n" + content;
-        
-        let chunks = chunkSubstr(content, 1900);
+        sendMessage(content);
 
-        for (let i = 0; i < chunks.length; i++) {
-            receivedMessage.channel.send(chunks[i]);
-        }
+    }, function(err) {
+        console.log(err);
+        receivedMessage.channel.send("Critical Error!");
+    });
+}
+
+function listCommand(receivedMessage) {
+
+    listFiles('data/taming/', function(filenames) {
+
+        let dinos = "";
+
+        filenames.forEach(function(filename) {
+            if(filename.length > 4) {
+                dinos += filename.slice(0, -4) + "\n"
+            }
+        });
+        sendMessage(dinos);
+
     }, function(err) {
         console.log(err);
         receivedMessage.channel.send("Critical Error!");
@@ -101,13 +118,30 @@ function readFiles(dirname, key, onFileContent, onError) {
     });
 }
 
+function listFiles(dirname, onSuccess, onError) {
+    fs.readdir(dirname, function(err, filenames) {
+        if (err) {
+            onError(err);
+            return;
+        }
+        onSuccess(filenames)
+    });
+}
+
 function chunkSubstr(str, size) {
-    const numChunks = Math.ceil(str.length / size)
-    const chunks = new Array(numChunks)
+    const numChunks = Math.ceil(str.length / size);
+    const chunks = new Array(numChunks);
 
     for (let i = 0, o = 0; i < numChunks; ++i, o += size) {
         chunks[i] = str.substr(o, size)
     }
-
     return chunks
+}
+
+function sendMessage(message, receivedMessage) {
+    let chunks = chunkSubstr(message, 1900);
+
+    for (let i = 0; i < chunks.length; i++) {
+        receivedMessage.channel.send(chunks[i]);
+    }
 }

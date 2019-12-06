@@ -63,7 +63,7 @@ function tameCommand(arguments, receivedMessage) {
     readFiles('data/taming/', dino, function(filename, content) {
 
         content = filename.slice(0, -4).toUpperCase() + "\n\n" + content;
-        sendMessage(content);
+        sendMessage(content, receivedMessage);
 
     }, function(err) {
         console.log(err);
@@ -82,7 +82,7 @@ function listCommand(receivedMessage) {
                 dinos += filename.slice(0, -4) + "\n"
             }
         });
-        sendMessage(dinos);
+        sendMessage(dinos, receivedMessage);
 
     }, function(err) {
         console.log(err);

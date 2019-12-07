@@ -74,7 +74,7 @@ function listCommand(receivedMessage) {
 
     listFiles('data/taming/', function(filenames) {
 
-        let dinos = "";
+        let dinos = "\n";
 
         filenames.forEach(function(filename) {
             if(filename.length > 4) {

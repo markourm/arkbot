@@ -1,34 +1,8 @@
 Preferred food: Angler Gel
 
-The Manta is tamed passively, meaning it must not be rendered unconscious before taming it. This is kind of similar to the  Ichthy and  Mesopithecus. However, the main problem you are going to face is that unlike the Ichthy and Mesopithecus, the Manta is a hostile creature which makes this tame very frustrating and, due to the Manta's high damage output, even dangerous. Mantas are tamed using  Angler Gel, which is dropped by the  Angler.
-
-It seems the feeding counter has 2 different ways to count down. When attacking, the Manta becomes hungry a lot quicker (feeding ~every 20 seconds), in other circumstances it takes ~ 1 minute until you can feed him again. Needs further checking.
-
-There are multiple strategies you can use to tame one.
-
-Ichthyosaurus
+The Manta is tamed passively. Manta is a hostile creature which makes this tame very frustrating and, due to the Manta's high damage output, even dangerous. Mantas are tamed using  Angler Gel, which is dropped by the  Angler.
 Mantas won't aggro when you are on an Ichthy so it's easy and safe to get close by to feed them and follow them in between the feedings.
 
-Basilosaurus
-The mantas swarming around a Basilosaurus seem pacified and won't attack survivors even if touched, unless something sets them off like a "free-range" manta attacking your mount, or the Basilosaurus eating something and activating the group aggro. You will need scuba fins to keep up with the Basilosaurus's wandering, and Lazarus Chowder or a scuba tank are recommended for oxygen, but you don't strictly need a mount (though a strong one is recommended in case you make a mistake and the mantas all attack you.) Bring extra AnglerGel due to the difficulty of pinpointing a single manta in the swarm; it is easiest to just feed and tame all of them as you're able to get within feeding range. (Tested on SP)
+Bug Repellant works against their aggro radius. Use an amphibious mount to lure them into very shallow water (so they can't go up or down), jump on land, apply Bug Repellant on yourself, put on your scuba fins and approach the manta from the rear. 
 
-Bug Repellant
-Bug Repellant works against their aggro radius. Use an amphibious mount to lure them into very shallow water (so they can't go up or down), jump on land, apply Bug Repellant on yourself, put on your scuba fins and approach the manta from the rear. You can touch his stingers and his rear end of the "wings" without him attacking you. Just don't come in contact with his forward parts, upper side or underside and everything will be alright (by going into very shallow, you can not come in contact with lower and upper side, making the process a lot(!) easier).
-
-If they start to wander off to deeper waters, go in with your mount again and bait them back to the shallow.
-
-High Mounts
-Take a rather large mount, such as a  Paracer,  Rex or  Spino, and go to shallow waters near the coast. Find a spot of water that is shallow enough for your mount to stand in, but is too deep for your character to stand in, causing him to swim. You then need to lure one Manta to the shallow spot near your mount. The trick here is that Manta's do not attack creatures standing in water, but only the ones swimming in it. So to tame the Manta with this trick, follow these steps:
-
-Lure the Manta near you by swimming in the water near your mount.
-When its near, try to feed it and then quickly mount your pet to make the Manta stop attacking.
-If the manta is close to your mount, dismount, jump near it and try to feed it again, after which you will go on your mount again. Repeat this step until the creature is yours.
-When sitting on your mount, the Manta will probably swim away, as it has no targets near it. To lure it back to you, simply follow step 1 again. It might also be advisable to take some  Medical Brew with you, due to the Manta's huge damage output.
-
-Using a raft
-Stand on a rock or a boat edge close enough to feed the Manta, but not so close it can bite you. Be careful of jumping Manta knocking you into the water.
-
-Building an under boat metal cage works well to stay inside cage underwater and let the Manta try to get in through a doorway. They won't be able to get in, but you can get close enough to feed them. The distance to feed is just ever so slightly greater than their striking range, so you should stay safe as long as you don't get closer than necessary.
-
-Trapping with doorframes
 Stone Doorframe trapping is very efficient if you want to tame a Manta solo. Build a Stone Foundation on a flat part in the water somewhere not too close to the shore. Place three stone doorframes around the perimeter, leave one empty slot. Aggro a Manta and lure it to your structure. Swim in through the open slot and swim out the stone doorframe opposite to it so that the Manta will get stuck. After this, slowly swim towards it so you can place the final stone doorframe behind it to ultimately trap it. Be careful though, if you get too close to the open stone doorframe the Manta might be able to hit you!

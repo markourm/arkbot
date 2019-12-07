@@ -66,8 +66,7 @@ function tameCommand(arguments, receivedMessage) {
         sendMessage(content, receivedMessage);
 
     }, function(err) {
-        console.log(err);
-        receivedMessage.channel.send("Critical Error!");
+        error(err, receivedMessage)
     });
 }
 
@@ -85,8 +84,7 @@ function listCommand(receivedMessage) {
         sendMessage(dinos, receivedMessage);
 
     }, function(err) {
-        console.log(err);
-        receivedMessage.channel.send("Critical Error!");
+        error(err, receivedMessage)
     });
 }
 
@@ -113,7 +111,7 @@ function readFiles(dirname, key, onFileContent, onError) {
             }
         });
         if(!found) {
-            onFileContent(key + ".txt", key + " was not found in database");
+            onFileContent(key + ".txt", key + " was not found in database. \nUse `!list` to list all creatures currently in database");
         }
     });
 }
@@ -144,4 +142,9 @@ function sendMessage(message, receivedMessage) {
     for (let i = 0; i < chunks.length; i++) {
         receivedMessage.channel.send(chunks[i]);
     }
+}
+
+function error(err, receivedMessage) {
+    console.log(err);
+    receivedMessage.channel.send("Critical Error!");
 }

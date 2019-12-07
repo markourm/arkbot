@@ -1,14 +1,14 @@
 {
-  "name": "untitled",
+  "name": "arkbot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple Discord bot for Ark players",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Marko Urm",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^11.5.1"
   }

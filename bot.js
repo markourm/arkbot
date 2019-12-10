@@ -57,24 +57,14 @@ function tameCommand(arguments, receivedMessage) {
         helpCommand(["tame"], receivedMessage);
         return
     }
-
-    let dino = arguments.join(" ").toLowerCase();
-
-    readFiles('data/taming/', dino, function(filename, content) {
-
-        content = filename.slice(0, -4).toUpperCase() + "\n\n" + content;
-        sendMessage(content, receivedMessage);
-
-    }, function(err) {
-        error(err, receivedMessage)
-    });
+    findFile('data/taming/', arguments, receivedMessage)
 }
 
 function listCommand(receivedMessage) {
 
     listFiles('data/taming/', function(filenames) {
 
-        let dinos = "";
+        let dinos = "\n";
 
         filenames.forEach(function(filename) {
             if(filename.length > 4) {
@@ -82,6 +72,20 @@ function listCommand(receivedMessage) {
             }
         });
         sendMessage(dinos, receivedMessage);
+
+    }, function(err) {
+        error(err, receivedMessage)
+    });
+}
+
+function findFile(path, arguments, receivedMessage) {
+
+    let dino = arguments.join(" ").toLowerCase();
+
+    readFiles(path, dino, function(filename, content) {
+
+        content = filename.slice(0, -4).toUpperCase() + "\n\n" + content;
+        sendMessage(content, receivedMessage);
 
     }, function(err) {
         error(err, receivedMessage)

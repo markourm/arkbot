@@ -3,6 +3,12 @@ const client = new Discord.Client();
 const fs = require('fs');
 const config = require("./config.json");
 
+const commands = new Map([
+    ["help", "Help"],
+    ["list", "Lists all creatures currently in database"],
+    ["tame", "Displays information on how to tame the dino. For example `!tame archelon`"]
+]);
+
 client.on('ready', () => console.log("Connected as " + client.user.tag));
 
 client.on('message', (receivedMessage) => {
@@ -29,10 +35,10 @@ function processCommand(receivedMessage) {
 
     if (primaryCommand === "help") {
         helpCommand(arguments, receivedMessage)
-    } else if (primaryCommand === "tame") {
-        tameCommand(arguments, receivedMessage)
     } else if (primaryCommand === "list") {
         listCommand(receivedMessage)
+    } else if (primaryCommand === "tame") {
+        dataCommand(primaryCommand, arguments, receivedMessage)
     } else {
         receivedMessage.channel.send("I don't understand the command. Try `!help`")
     }
@@ -40,29 +46,21 @@ function processCommand(receivedMessage) {
 
 function helpCommand(arguments, receivedMessage) {
 
-    let genericHelp = "Available commands:\n `!tame dinoname`, for example `!tame archelon`\n `!list` lists all creatures in database";
+    let commands = commands.entries().map(cmd => "`!" + cmd.key + "` - " + cmd.value + "\n");
+    let genericHelp = "Available commands:\n " + commands;
 
     if (arguments.length === 0) {
         receivedMessage.channel.send(genericHelp)
-    } else if(arguments[0] === "tame") {
-        receivedMessage.channel.send("Type `!tame` followed by dino name, for example `!tame acathina`")
+    } else if(commands.has(arguments[0])) {
+        receivedMessage.channel.send( commands.get(arguments[0]) + "\nType `!" + arguments[0] + "` followed by dino name, for example `!" + arguments[0] + " acathina`")
     } else {
         receivedMessage.channel.send(genericHelp)
     }
 }
 
-function tameCommand(arguments, receivedMessage) {
-
-    if (arguments.length === 0) {
-        helpCommand(["tame"], receivedMessage);
-        return
-    }
-    findFile('data/taming/', arguments, receivedMessage)
-}
-
 function listCommand(receivedMessage) {
 
-    listFiles('data/taming/', function(filenames) {
+    listFiles('data/tame/', function(filenames) {
 
         let dinos = "\n";
 
@@ -76,6 +74,17 @@ function listCommand(receivedMessage) {
     }, function(err) {
         error(err, receivedMessage)
     });
+}
+
+function dataCommand(primaryCommand, arguments, receivedMessage) {
+
+    let isValid = commands.has(primaryCommand) && arguments.length > 0;
+
+    if (!isValid) {
+        helpCommand([primaryCommand], receivedMessage);
+        return
+    }
+    findFile("data/" + primaryCommand + "/", arguments, receivedMessage)
 }
 
 function findFile(path, arguments, receivedMessage) {

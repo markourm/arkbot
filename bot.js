@@ -91,7 +91,7 @@ function dataCommand(primaryCommand, arguments, receivedMessage) {
     let isValid = commands.has(primaryCommand) && arguments.length > 0;
 
     if (!isValid) {
-        helpCommand("help", [primaryCommand], receivedMessage);
+        helpCommand(primaryCommand, [primaryCommand], receivedMessage);
         return
     }
     findFile("data/" + primaryCommand + "/", arguments, receivedMessage)

@@ -5,8 +5,9 @@ const config = require("./config.json");
 
 const commands = new Map([
     ["help", "Help"],
-    ["list", "Lists all creatures currently in database"],
-    ["tame", "Displays information on how to tame the dino. For example `!tame archelon`"]
+    ["list", "Lists all creatures currently in database for given command. For example `!list tame` displays all creatures who have taming info in the database"],
+    ["tame", "Displays information on how to tame a creature. For example `!tame archelon`"],
+    ["best", "Displays the best stats we currently have for given creature. For example `!best tek rex`"]
 ]);
 
 client.on('ready', () => console.log("Connected as " + client.user.tag));
@@ -36,17 +37,15 @@ function processCommand(receivedMessage) {
     if (primaryCommand === "help") {
         helpCommand(arguments, receivedMessage)
     } else if (primaryCommand === "list") {
-        listCommand(receivedMessage)
-    } else if (primaryCommand === "tame") {
-        dataCommand(primaryCommand, arguments, receivedMessage)
+        listCommand(arguments, receivedMessage)
     } else {
-        receivedMessage.channel.send("I don't understand the command. Try `!help`")
+        dataCommand(primaryCommand, arguments, receivedMessage);
     }
 }
 
 function helpCommand(arguments, receivedMessage) {
 
-    let genericHelp = "Available commands:\n\n";
+    let genericHelp = "I don't understand the command. Available commands:\n\n";
 
     for (const key of commands.keys()) {
         genericHelp += "`!" + key + "` - " + commands.get(key) + "\n";
@@ -54,16 +53,22 @@ function helpCommand(arguments, receivedMessage) {
 
     if (arguments.length === 0) {
         receivedMessage.channel.send(genericHelp)
-    } else if(commands.has(arguments[0])) {
-        receivedMessage.channel.send( commands.get(arguments[0]) + "\nType `!" + arguments[0] + "` followed by dino name, for example `!" + arguments[0] + " acathina`")
+    } else if(commands.has(arguments[0].toLowerCase())) {
+        receivedMessage.channel.send( commands.get(arguments[0].toLowerCase()) )
     } else {
         receivedMessage.channel.send(genericHelp)
     }
 }
 
-function listCommand(receivedMessage) {
+function listCommand(arguments, receivedMessage) {
 
-    listFiles('data/tame/', function(filenames) {
+    let cmd = "tame";
+
+    if(arguments.length > 0 && commands.has(arguments[0].toLowerCase())) {
+        cmd = arguments[0].toLowerCase();
+    }
+
+    listFiles("data/" + cmd + "/", function(filenames) {
 
         let dinos = "\n";
 

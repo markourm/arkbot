@@ -35,7 +35,7 @@ function processCommand(receivedMessage) {
     console.log("Arguments: " + arguments); // There may not be any arguments
 
     if (primaryCommand === "help") {
-        helpCommand(arguments, receivedMessage)
+        helpCommand(primaryCommand, arguments, receivedMessage)
     } else if (primaryCommand === "list") {
         listCommand(arguments, receivedMessage)
     } else {
@@ -43,20 +43,22 @@ function processCommand(receivedMessage) {
     }
 }
 
-function helpCommand(arguments, receivedMessage) {
+function helpCommand(primaryCommand, arguments, receivedMessage) {
 
-    let genericHelp = "I don't understand the command. Available commands:\n\n";
+    let genericHelp = "Available commands:\n\n";
 
     for (const key of commands.keys()) {
         genericHelp += "`!" + key + "` - " + commands.get(key) + "\n";
     }
 
-    if (arguments.length === 0) {
+    let isSpecificCommand = arguments.length > 0 && commands.has(arguments[0].toLowerCase());
+
+    if (primaryCommand === "help" && !isSpecificCommand) {
         receivedMessage.channel.send(genericHelp)
-    } else if(commands.has(arguments[0].toLowerCase())) {
+    } else if(isSpecificCommand) {
         receivedMessage.channel.send( commands.get(arguments[0].toLowerCase()) )
     } else {
-        receivedMessage.channel.send(genericHelp)
+        receivedMessage.channel.send("I don't understand the command. " + genericHelp)
     }
 }
 
@@ -89,7 +91,7 @@ function dataCommand(primaryCommand, arguments, receivedMessage) {
     let isValid = commands.has(primaryCommand) && arguments.length > 0;
 
     if (!isValid) {
-        helpCommand([primaryCommand], receivedMessage);
+        helpCommand("help", [primaryCommand], receivedMessage);
         return
     }
     findFile("data/" + primaryCommand + "/", arguments, receivedMessage)

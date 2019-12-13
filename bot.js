@@ -48,8 +48,8 @@ function helpCommand(arguments, receivedMessage) {
 
     let genericHelp = "Available commands:\n\n";
 
-    for (const entry of commands.entries()) {
-        genericHelp += "`!" + entry.key + "` - " + entry.value + "\n";
+    for (const key of commands.keys()) {
+        genericHelp += "`!" + key + "` - " + commands.get(key) + "\n";
     }
 
     if (arguments.length === 0) {

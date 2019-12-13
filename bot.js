@@ -46,8 +46,11 @@ function processCommand(receivedMessage) {
 
 function helpCommand(arguments, receivedMessage) {
 
-    let list = commands.entries().map(cmd => "`!" + cmd.key + "` - " + cmd.value + "\n");
-    let genericHelp = "Available commands:\n " + list;
+    let genericHelp = "Available commands:\n\n";
+
+    for (const entry of commands.entries()) {
+        genericHelp += "`!" + entry.key + "` - " + entry.value + "\n";
+    }
 
     if (arguments.length === 0) {
         receivedMessage.channel.send(genericHelp)

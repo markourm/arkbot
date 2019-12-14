@@ -134,7 +134,8 @@ function readFiles(dirname, key, onFileContent, onError) {
             }
         });
         if(!found) {
-            onFileContent(key + ".txt", key + " was not found in database. \nCheck the in-game taming journal. \nUse `!list " + dirname + "` to list all creatures currently in database");
+            let cmd = dirname.substring(5, dirname.indexOf('/', 6));
+            onFileContent(key + ".txt", key + " was not found in database. \nCheck the in-game taming journal. \nUse `!list " + cmd + "` to list all creatures currently in database");
         }
     });
 }

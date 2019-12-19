@@ -7,7 +7,8 @@ const commands = new Map([
     ["help", "Help"],
     ["list", "Lists all creatures currently in database for given command. For example `!list tame` displays all creatures who have taming info in the database"],
     ["tame", "Displays information on how to tame a creature. For example `!tame archelon`"],
-    ["best", "Displays the best stats we currently have for given creature. For example `!best tek rex`"]
+    ["best", "Displays the best stats we currently have for given creature. For example `!best tek rex`"],
+	["harvest", "Shows best dinos for harvesting resources. For example `!harvest metal`"]
 ]);
 
 client.on('ready', () => console.log("Connected as " + client.user.tag));

@@ -1,0 +1,12 @@
+Carnivore. Minimum level requirement 62
+Best taming food is kibble. Other taming food from best to worst: raw mutton bait, raw meat bait, raw prime fish bait, raw fish bait. Baits can be crafted at the bait station.
+
+Attach the bait to an arrow and shoot it near the dino. Do not get too close to the dino while they are glowing red - they will attack you. Once their glow changes from red to blue, you can move close to the dino.
+Put taming food into your last quickslot (0) and use it to drop it on the ground near the dino. After a while you can feed the dino from hand.
+
+Occasionally the dino wants you to pet them. The reaction changes depending on the taming %
+0 - 25% - the dino is startled and may run away
+25% and above - the dino enjoys petting
+55%  - the dino will want to be cared every now and again
+
+Taming will also progress when you fight against other nearby dinos from different species, but be careful not to harm the one you are taming.

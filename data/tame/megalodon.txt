@@ -1,0 +1,9 @@
+Best taming food is kibble. Other taming food from best to worst: raw mutton bait, raw meat bait, raw prime fish bait, raw fish bait. Baits can be crafted at the bait station.
+
+Put balloons in your slot (9), attach the bait to an arrow and shoot it near the dino. Crossbows work underwater. Do not get too close to the dino while they are glowing red - they will attack you. Once their glow changes from red to blue, you can move close to the dino.
+Put taming food into your last quickslot (0) (and keep the balloons in the previous slot) and use it to leave it floating in the water near the dino
+
+Occasionally the dino wants you to pet them. The reaction changes depending on the taming %
+0 - 25% - the dino is startled and may run away
+25% and above - the dino enjoys petting
+55%  - the dino will want to be cared every now and again

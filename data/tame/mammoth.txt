@@ -1,0 +1,7 @@
+Level requirement 31
+Best taming food is kibble. Other taming food from best to worst: Botany bale bait, veggie bag bait, berry bag bait. Baits can be crafted at the bait station.
+Put taming food into your last quickslot (0) and use it to drop it on the ground near the creature. After a while you can feed the creature from hand.
+Occasionally the creature wants you to pet them. The reaction changes depending on the taming %
+0 - 25% - the creature is startled and may run away
+25% and above - the creature enjoys petting
+55%  - the creature will want to be cared every now and again

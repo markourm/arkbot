@@ -1,0 +1,9 @@
+Attach a Fire Wyvern talon trophy bait to an arrow and shoot it close to the wyvern. (Ice wyverns themselves leave no talon trophies) Trophy baits can be crafted at the trophy bait station. After picking it up, the wyvern challenges you to a combat. You must get close to them and fight in melee. You may use your mount. The wyvern must have a chance to fight back or they will deem your fighting cowardly and the taming will not progress. Once the taming reaches 25% the wyvern is no longer aggressive and it is time to stop fighting.
+Taming will also progress when you fight against other nearby dinos from different species, but be careful not to harm the one you are taming.
+Best taming food is kibble. Other taming food from best to worst: raw mutton bait, raw meat bait, raw prime fish bait, raw fish bait. Baits can be crafted at the bait station.
+Put taming food into your last quickslot (0) and balloons in the previous slot (9) and use it to leave it floating in the air near the wyvern. After a while you can feed the wyvern from hand. (e.g. standing on top of a griffin, unmounted)
+
+Occasionally the wyvern wants you to pet them. The reaction changes depending on the taming %
+0 - 25% - the wyvern is startled and may run away
+25% and above - the wyvern enjoys petting
+55%  - the wyvern will want to be cared every now and again

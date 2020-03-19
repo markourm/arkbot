@@ -3,3 +3,7 @@ Preferred food: tek structures, metal structures, stone structures, wooden struc
 The Gacha is not tamed by traditional means, but rather food and items must be dropped in front of it, he eats everything you drop!
 
 You will have to time the drop of the item to get it into the path of the gacha and you can drop a stack as the gacha will pick up the whole stack and eat them continuously until tamed or out of the item. Watch their food meter when traveling long distances and supply it manually.
+
+It eats a lot, and 20 at a time. E.g. to tame a level 150 gacha, drop a stack of 100 stone foundations in front of it.
+
+After taming, they need to be alone (12 foundations distance) except for one opposite gender mate, in order to be happy and produce crystals. They produce very little if they are unhappy.

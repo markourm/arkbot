@@ -1,0 +1,5 @@
+Needs Exceptional Kibble
+Tropeognathus is tamed non-violently, rather than through the use of tranquilizers. However, in order to trigger a way of feeding the creature, it has to be held in position with a  Chain Bola.
+Since it does not attack until it has been provoked the first time, chaining it down in bola will turn it aggressive against the individual.
+While its possible to use a  Bola on a Tropeognathus to stop it from flying towards, taming it is impossible as the taming bar will show as "Try the Chain Bola..." while it is entangled with it.
+One of the few ways is to set a trap structure with the  Ballista Turret in another end with the Chain Bola, and pull it over towards the trap area.

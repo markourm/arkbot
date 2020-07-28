@@ -1,0 +1,22 @@
+You must be level 85.
+You also cannot approach Armaedron on a mount. Armaedron will take approaching it on a mount as a threat or act of violence, and will retaliate with immediate aggression.
+In a nutshell, how you tame Armaedron is by offering it precious metals and minerals until you finally befriend it after earning its trust.
+From least effective to most effective, here are the items you can give Armaedron to tame:
+-Metal (least effective)
+-Crystal/Obsidian
+-Green Gems/Blue Gems
+-Red Gems/Silicate
+-Black Pearls
+-Element Ore (Most effective)
+
+To Initiate the taming process, you must first approach an Armaedron and have it threaten you. When this happens, drop your gift (taming item) on the ground and back up a little.
+You will notice Armaedron becomes curious in what you drop and will proceed to walk towards it.
+Here's the important part: you must make sure to keep your distance. Stay within threatening range but do not draw too close, or the Armaedron will attack.
+Keep a good middle distance and do not leave the threatening distance or the Armaedron will glitch during its next step.
+Once Armaedron accepts the gift, it will re-enter its threatening stance. Once you receive the message that re-starts the the threatening process, let the Armaedron have its personal space, and back off until it stands down.
+The amount of the item you drop does NOT affect taming affinity. Giving it 1,000 or so black pearls in a stack will give you the same affinity as giving it a single one.
+
+After waiting a bit, repeat the process. Approach Armaedron, let it threaten you. Drop the gift and maintain your careful distance.
+Wait for him to accept the gift, threaten again, then back off until he stands down. Keep doing this until you hit 30% affinity.
+When you hit 30% taming, the Armaedron will become neutral towards you and you can approach it without threat.
+You will gain a buff called "Friend of the Red Dragon", which will prevent Armaedron from attacking you when you approach.

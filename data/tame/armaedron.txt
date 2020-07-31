@@ -1,6 +1,6 @@
 You must be level 85.
 You also cannot approach Armaedron on a mount. 
-You tame Armaedron is by offering it precious metals and minerals:
+You tame Armaedron is by offering it precious metals and minerals, one piece at a time:
 -Metal (least effective)
 -Crystal/Obsidian
 -Green Gems/Blue Gems
@@ -9,11 +9,9 @@ You tame Armaedron is by offering it precious metals and minerals:
 -Element Ore (Most effective)
 
 To Initiate the taming process, you must first approach an Armaedron and have it threaten you. When this happens, drop your gift (taming item) on the ground and back up a little. You must make sure to keep your distance. Stay within threatening range but do not draw too close, or the Armaedron will attack. IF you leave too far, it will glitch.
-Once Armaedron accepts the gift, it will re-enter its threatening stance. Once you receive the message that re-starts the the threatening process, let the Armaedron have its personal space, and back off until it stands down.
-The amount of the item you drop does NOT affect taming affinity. Giving it 1,000 or so black pearls in a stack will give you the same affinity as giving it a single one.
-
+Once Armaedron accepts the gift, it will re-enter its threatening stance. Back off until it stands down.
 When you hit 30% taming, the Armaedron will become neutral towards you and you can approach it without threat.
+
 OFFENDED REFUSAL: Armaedron's Cross-Play with Immersive Taming.
 As Armaedron is an extremely intelligent creature, it will take offense to being treated like an animal. As such, if offered a bait from immersive taming, Armaedron will enter an immediate rage state and attack. That individual becomes permanently immune to immersive taming and can only be tamed via its usual method. 
-
-Immersive Tame is possible on unoffended armaedron by saving its life. This is a natural mechanic built-in to IT where you save a close-to-death creature from an attacker. Once you make an Armaedron grateful to you, DO NOT OFFER IT ANY BAIT. Tame it the standard method until both IT say it is ok to approach, and the Armaedron stops threatening. Continue to do a mixture of petting and gift-giving until Armaedron can be hand-fed. When that becomes an option, it is safe to feed armaedron baits using hand-feeding only. The default taming mechanic will still work as it is being Immersive Tamed, so you can continue to give your new friend gifts as you care for it and offer it something to eat whenever it wants.
+Immersive Taming is possible on unoffended armaedron by saving its life from an attacker. DO NOT OFFER IT ANY BAIT. Tame it the standard method until both IT say it is ok to approach, and the Armaedron stops threatening. Continue to do a mixture of petting and gift-giving until Armaedron can be hand-fed. When that becomes an option, it is safe to feed armaedron baits using hand-feeding only.
